@@ -1,0 +1,43 @@
+@0
+##OPT 1
+
+@1
+ST:SWP
+MOV UP ACC
+JNZ RT
+SWP
+ADD 1
+MOV ACC LEFT
+SUB 3
+JEZ OK
+MOV LEFT ACC
+JMP RT
+OK:
+RT:MOV 0 DOWN
+
+@2
+MOV LEFT LEFT
+
+@3
+
+
+@4
+MOV UP DOWN
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV UP RIGHT
+
+@9
+MOV LEFT DOWN
+
+@10
+

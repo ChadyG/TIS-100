@@ -1,0 +1,47 @@
+@0
+
+
+@1
+MOV UP, DOWN
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP, DOWN
+
+@6
+
+
+@7
+
+
+@8
+START:
+MOV 18,ACC
+SUB UP
+LOOP:
+MOV ACC, RIGHT
+ADD 1
+SAV
+SUB 18
+JEZ START
+SWP
+JMP LOOP
+
+@9
+MOV RIGHT, ACC
+LOOP:
+MOV LEFT, DOWN
+MOV RIGHT, DOWN
+MOV 1, DOWN
+MOV -1, DOWN
+
+@10
+
